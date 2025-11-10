@@ -1,0 +1,10 @@
+@import "color.css";
+
+#tray {
+  margin: 0.4em 0 0.4em;
+  padding: 0 0.5em 0 0.5em;
+}
+
+/* #tray:hover { */
+/*   background-color: @light-grey; */
+/* } */

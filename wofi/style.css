@@ -1,0 +1,47 @@
+@define-color bg-color rgba(44, 44, 44, 1);
+@define-color blue #1a73e8;
+@define-color light-grey #e6e6e6;
+@define-color dark-grey #4b4b4b;#282828;
+
+* {
+  font-family: "Source Sans 3";
+  /* font-style: semibold; */
+  background: transparent;
+}
+
+#window{
+  background-color: @bg-color;
+  color: @light-grey;
+  font-size: 18px;
+  font-weight: 500;
+  border-radius: 15px;
+  border: 2px solid @blue
+}
+
+#outer-box {
+  padding: 20px;
+}
+
+#img {
+  margin-right: 10px;
+}
+
+#input {
+  padding: 10px;
+  margin-bottom: 5px;
+  background: transparent;
+}
+
+#input:selected {
+  border: none;
+}
+
+#entry {
+  padding: 10px;
+  border-radius: 15px;
+}
+
+#entry:selected {
+  color: white;
+  background-color: @blue;
+}

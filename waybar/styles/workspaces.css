@@ -1,0 +1,45 @@
+@import "color.css";
+
+#workspaces button {
+  margin: 0.2em 0 0.2em;
+  padding: 0 0.3em;
+  background: transparent;
+  /* box-shadow: inset 0 -3px black; */
+  border-radius: 50%;
+  /* transition: transform 0.3s ease, background-color 0.3s ease; */
+  transition: all 0.3s ease-in-out;
+}
+
+#workspaces button.empty {
+  padding: 0 0.3em;
+}
+
+/* Seems to work as long as there's no window on a workspace */
+#workspaces button.empty:hover {
+  background: transparent;
+}
+
+#workspaces button.visible {
+  padding: 0 0.3em;
+  background: transparent;
+}
+
+#workspaces button.active {
+  padding: 0 0.3em;
+  background-color: @blue;
+}
+
+#workspaces button.urgent {
+  padding: 0 0.3em;
+  background-color: red;
+}
+
+/* #workspaces button:first-child { */
+/*   border-top-left-radius: 30%; */
+/*   border-bottom-left-radius: 30%; */
+/* } */
+/**/
+/* #workspaces button:last-child { */
+/*   border-top-right-radius: 30%; */
+/*   border-bottom-right-radius: 30%; */
+/* } */

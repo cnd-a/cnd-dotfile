@@ -1,0 +1,12 @@
+@import "color.css";
+
+#custom-notification {
+  border-radius: 10px;
+  font-size: 15px;
+  padding: 0 15px 0 12px;
+}
+
+#custom-notification:hover {
+  background-color: @dark-grey;
+}
+

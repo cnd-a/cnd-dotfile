@@ -1,0 +1,11 @@
+@import "color.css";
+
+#clock {
+  /* background-color: @bg-color;   */
+  padding: 0 4px 0 8px;
+  border-radius: 10px;
+}
+
+#clock:hover {
+  background-color: @dark-grey;
+}

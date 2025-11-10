@@ -1,0 +1,17 @@
+*
+
+!.gitignore
+!/hypr/
+!/hypr/**
+!/fish/
+!/fish/**
+!/nvim/
+!/nvim/**
+!/waybar/
+!/waybar/**
+!/mako/
+!/mako/**
+!/swaync/
+!/swaync/**
+!/wofi/
+!/wofi/**

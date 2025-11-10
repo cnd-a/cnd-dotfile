@@ -1,0 +1,11 @@
+show = drun
+monitor = HDMI-A-1
+width = 30%
+height = 30%
+image_size = 25
+prompt = Search
+insensitive = true
+allow_images = true
+single_click = true
+exec_search = true
+gtk_dark = false

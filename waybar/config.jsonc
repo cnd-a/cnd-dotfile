@@ -1,0 +1,35 @@
+[{
+    "position": "bottom",
+    "layer": "top",
+    "output": "DP-1",
+    "height": 33, // Waybar height (to be removed for auto height)
+    "spacing": 2, // Gaps between modules (4px)
+    "margin": 0,
+    "include": "~/.config/waybar/modules",
+    "modules-left":[],
+    "modules-center": [
+        "hyprland/workspaces"
+    ],
+    "modules-right":[]
+},
+{
+    "position": "bottom",
+    "layer": "top",
+    "output": "HDMI-A-1",
+    "height": 33, // Waybar height (to be removed for auto height)
+    "spacing": 2, // Gaps between modules (4px)
+    "margin": 0,
+    "include": "~/.config/waybar/modules",
+    "modules-left": [
+        "custom/power",
+        "custom/media"
+    ],
+    "modules-center": [
+        "hyprland/workspaces"
+    ],
+    "modules-right": [
+        "tray",
+        "clock",
+        "custom/notification"
+    ]
+}]

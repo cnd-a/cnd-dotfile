@@ -1,0 +1,12 @@
+@import "color.css";
+
+#custom-power {
+  color: #0F94D2;
+  border-radius: 10px;
+  font-size: 25px;
+  padding: 0 14px 0 8px;
+}
+
+#custom-power:hover {
+  background-color: @dark-grey;
+}
