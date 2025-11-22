@@ -1,4 +1,4 @@
-@define-color bg-color rgba(44, 44, 44, 1);
+@define-color bg-color rgba(40, 40, 40, 0.9);
 @define-color blue #1a73e8;
 @define-color light-grey #e6e6e6;
 @define-color dark-grey #4b4b4b;#282828;
@@ -15,7 +15,7 @@
   font-size: 18px;
   font-weight: 500;
   border-radius: 15px;
-  border: 2px solid @blue
+  /* border: 2px solid @blue */
 }
 
 #outer-box {
