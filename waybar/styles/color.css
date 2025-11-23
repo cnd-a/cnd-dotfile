@@ -1,4 +1,4 @@
-@define-color bg-color #2c2c2c;
+@define-color bg-color rgba(40, 40, 40, 0.8);
 @define-color blue #1a73e8;
 @define-color light-grey #e6e6e6;
 @define-color dark-grey #4b4b4b;
