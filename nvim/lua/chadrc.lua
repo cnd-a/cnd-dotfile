@@ -2,7 +2,8 @@
 local M = {}
 
 M.base46 = {
-	theme = "chadracula",
+	theme = "carbonfox",
+  transparency = true,
 
 	hl_override = {
 		Comment = { italic = true },
